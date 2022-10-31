@@ -38,7 +38,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+**/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+**/node_modules
+.vscode
+**/.DS_Store
+build
+coverage
+# Setting for non zero-installs (https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

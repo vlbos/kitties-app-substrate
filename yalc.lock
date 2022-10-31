@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "packages": {
+    "pacific-js": {
+      "signature": "f201881d99ff8ba42678753d80fdd903",
+      "file": true,
+      "replaced": "file:/Users/lisheng/mygit/vlbos/kitties-app-substrate/.yalc/pacific-js/packages/pacific-js"
+    },
+    "substrate-front-end-template": {
+      "signature": "72248c9ee389f7eba713c9907267b81c",
+      "file": true
+    }
+  }
+}
